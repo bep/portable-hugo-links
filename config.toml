@@ -1,0 +1,15 @@
+baseURL = "https://example.org"
+
+[permalinks]
+  blog = "/:06/:1/:2/:title/"
+
+[module]
+  [[module.mounts]]
+    source = "README.md"
+    target = "content/_index.md"
+  [[module.mounts]]
+    source = "blog"
+    target = "content/blog"
+  [[module.mounts]]
+    source = "docs"
+    target = "content/docs"
