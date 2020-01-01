@@ -3,8 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+    <style>
+     body {
+       margin: 3rem;
+     }
+
+     .page {
+      max-width: 1200px;
+      background-color: #fff;
+      border: 1px solid #d1d5da;
+      border-radius: 3px;
+      margin-bottom: -1px;
+      padding: 16px;
+     }
+     
+    </style>
+ 
+    
   </head>
   <body>
-    {{ block "main" . }}{{ end }}
+    <div class="page">{{ block "main" . }}{{ end }}</div>
   </body>
 </html>

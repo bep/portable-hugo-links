@@ -9,7 +9,7 @@ baseURL = "https://example.org"
     target = "content/_index.md"
   [[module.mounts]]
     source = "blog"
-    target = "content/blog"
+    target = "content/posts"
   [[module.mounts]]
     source = "docs"
     target = "content/docs"
