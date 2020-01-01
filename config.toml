@@ -1,7 +1,7 @@
 baseURL = "https://example.org"
 
 [permalinks]
-  blog = "/:06/:1/:2/:title/"
+  posts = "/:2006/:01/:02/:title/"
 
 [module]
   [[module.mounts]]
@@ -13,3 +13,11 @@ baseURL = "https://example.org"
   [[module.mounts]]
     source = "docs"
     target = "content/docs"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+   
