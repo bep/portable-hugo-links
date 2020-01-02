@@ -8,6 +8,7 @@ date: 2019-12-30
 
 * [Blog Link](p2.md)
 * [Doc Link](/docs/d1.md)
+* [Doc Link With Anchor](/docs/d1.md#anchor)
 * [Home Page](/README.md)
 
 
