@@ -6,6 +6,7 @@
 * [Blog Link](/blog/p1/index.md)
 * [Doc Link](/docs/d1.md)
 * [Doc Link With Anchor](/docs/d1.md#anchor)
+* [Doc Link With Anchor2](/docs/d1.md#anchor2)
 
 This is test repo to test out the new Markdown Render Hooks in Hugo [0.62.0](https://gohugo.io/news/0.62.0-relnotes/), to demonstrate truly portable Markdown links and images. No shortcodes used.
 
