@@ -6,7 +6,9 @@ date: 2019-12-30
 
 ## Blog Post Links
 
-* [Blog Link](p2.md)
+* [Blog Link Rel](../p2.md)
+* [Blog Link Posts](/posts/p2.md)
+* [Blog Link Blog](/blog/p2.md)
 * [Doc Link](/docs/d1.md)
 * [Doc Link With Anchor](/docs/d1.md#anchor)
 * [Home Page](/README.md)
