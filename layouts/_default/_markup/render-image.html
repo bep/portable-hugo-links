@@ -1,8 +1,8 @@
-{{ $img := .Page.Resources.GetMatch .Destination }}
-{{ with $img }}
-{{ $large := $img.Resize "1200x" }}
-{{ $medium := $large.Fill "726x402" }}
-{{ $small := $medium.Fill "458x254" }}
+{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- with $img -}}
+{{- $large := $img.Resize "1200x" -}}
+{{ $medium := $large.Fill "726x402" -}}
+{{ $small := $medium.Fill "458x254" -}}
 <figure class="image-caption">
 <img alt="{{ $.Text }}" 
         srcset="
@@ -13,6 +13,5 @@
     src="{{ $small.RelPermalink }}" />
 <figcaption>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</figcaption>
 </figure>
-{{ else }}
-<img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" />
-{{ end }}
+{{- else -}}
+<img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" />{{- end -}}
