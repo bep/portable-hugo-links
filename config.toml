@@ -5,6 +5,9 @@ baseURL = "https://example.org"
 
 [module]
   [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
     source = "README.md"
     target = "content/_index.md"
   [[module.mounts]]
