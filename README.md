@@ -16,5 +16,3 @@ This means that Markdown links/images should work whether browsed on [GitHub](ht
 <br/>
 <hr/>
 <br/>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/558b566f-bd70-42bc-b0f6-4bb1847138dd/deploy-status)](https://app.netlify.com/sites/portable-hugo-links/deploys)
