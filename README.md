@@ -1,8 +1,4 @@
 
-[View on Netlify](https://portable-hugo-links.netlify.com/) | [View on GitHub](https://github.com/bep/portable-hugo-links/)
-
-<br/>
-
 * [Blog Link](/blog/p1/index.md)
 * [Doc Link](/docs/d1.md)
 * [Doc Link With Anchor](/docs/d1.md#anchor)
