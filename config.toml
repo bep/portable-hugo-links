@@ -1,26 +1,34 @@
 baseURL = "https://example.org"
 
 [permalinks]
-  posts = "/:2006/:01/:02/:title/"
+posts = "/:2006/:01/:02/:title/"
 
 [module]
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"
-  [[module.mounts]]
-    source = "README.md"
-    target = "content/_index.md"
-  [[module.mounts]]
-    source = "blog"
-    target = "content/posts"
-  [[module.mounts]]
-    source = "docs"
-    target = "content/docs"
 
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "README.md"
+target = "content/_index.md"
+
+[[module.mounts]]
+source = "blog"
+target = "content/posts"
+
+[[module.mounts]]
+source = "docs"
+target = "content/docs"
+
+[[module.mounts]]
+source = "images"
+target = "assets/images"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-   
+
+[markup.goldmark]
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
