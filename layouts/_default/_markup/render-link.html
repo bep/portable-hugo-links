@@ -1,7 +1,7 @@
 {{ $link := .Destination }}
 {{ $isRemote := strings.HasPrefix $link "http" }}
 {{- if not $isRemote -}}
-{{ $url := urls.Parse .Destination }}
+{{ $url := urls.Parse ".Destination" }}
 {{- if $url.Path -}}
 {{ $fragment := "" }}
 {{- with $url.Fragment }}{{ $fragment = printf "#%s" . }}{{ end -}}
